@@ -3,7 +3,7 @@
 1. What is the "cache" used for in our implementation of forward propagation and backward propagation?
 
     - [ ] It is used to cache the intermediate values of the cost function during training.
-    - [x] We use it to pass variables computed during forward propagation to the corresponding backward propagation step. It contains useful values for backward propagation to compute derivatives.
+    - [ ] We use it to pass variables computed during forward propagation to the corresponding backward propagation step. It contains useful values for backward propagation to compute derivatives.
     - [ ] It is used to keep track of the hyperparameters that we are searching over, to speed up computation.
     - [ ] We use it to pass variables computed during backward propagation to the corresponding forward propagation step. It contains useful values for forward propagation to compute activations.
 
@@ -20,7 +20,7 @@
     
 3. Which of the following statements is true?
 
-    - [x] The deeper layers of a neural network are typically computing more complex features of the input than the earlier layers.
+    - [ ] The deeper layers of a neural network are typically computing more complex features of the input than the earlier layers.
 Correct 
     - [ ] The earlier layers of a neural network are typically computing more complex features of the input than the deeper layers.
     
@@ -29,7 +29,7 @@ Correct
 4. Vectorization allows you to compute forward propagation in an L-layer neural network without an explicit for-loop (or any other explicit iterative loop) over the layers l=1, 2, …,L. True/False?
 
     - [ ] True
-    - [x] False
+    - [ ] False
     
     Note: We cannot avoid the for-loop iteration over the computations among layers.
     
@@ -51,7 +51,7 @@ Correct
 
 7. During forward propagation, in the forward function for a layer l you need to know what is the activation function in a layer (Sigmoid, tanh, ReLU, etc.). During backpropagation, the corresponding backward function also needs to know what is the activation function for layer l, since the gradient depends on it. True/False?
 
-    - [x] True
+    - [ ] True
     - [ ] False
     
     > During backpropagation you need to know which activation was used in the forward propagation to be able to compute the correct derivative.
@@ -60,7 +60,7 @@ Correct
 
     (i) To compute the function using a shallow network circuit, you will need a large network (where we measure size by the number of logic gates in the network), but (ii) To compute it using a deep network circuit, you need only an exponentially smaller network. True/False?
     
-    - [x] True
+    - [ ] True
     - [ ] False
     
     Note: See lectures, exactly same idea was explained.

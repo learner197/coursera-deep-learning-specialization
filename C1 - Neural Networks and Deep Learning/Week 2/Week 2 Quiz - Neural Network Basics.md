@@ -4,7 +4,7 @@
 
     - [ ] A neuron computes an activation function followed by a linear function (z = Wx + b)
 
-    - [x] A neuron computes a linear function (z = Wx + b) followed by an activation function
+    - [ ] A neuron computes a linear function (z = Wx + b) followed by an activation function
 
     - [ ] A neuron computes a function g that scales the input x linearly (Wx + b)
 
